@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h2>CALCULATOR</h2>
+    </div>
+    <br/>
+    <div class="main">
+        <div class="inp">
+            <input disabled type="text" id="in">
+        </div>
+        <div class="btn">
+            <button onclick="calc('C')">CE</button>
+            <button onclick="calc('C')">C</button>
+            <button onclick="last()"><img src="backspace.svg" alt=""></button>
+            <button onclick="calc('/')">/</button>
+            <button onclick="calc('7')">7</button>
+            <button onclick="calc('8')">8</button>
+            <button onclick="calc('9')">9</button>
+            <button onclick="calc('*')">X</button>
+            <button onclick="calc('4')">4</button>
+            <button onclick="calc('5')">5</button>
+            <button onclick="calc('6')">6</button>
+            <button onclick="calc('-')">-</button>
+            <span class="firstBtn">
+                <button onclick="calc('1')">1</button>
+                <button onclick="calc('2')">2</button>
+                <button onclick="calc('3')">3</button>
+            </span>
+            <span class="plus">
+                <button onclick="calc('+')">+</button>
+            </span>
+            <span class="lastBtn">
+                <button onclick="calc('0')">0</button>
+                <button onclick="calc('.')">.</button>
+                <button class="equal" onclick="calculate()">=</button>
+            </span>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+
+body{
+    background-color: rgb(236, 236, 240);
+}
+
+.main{
+    width: 270px;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    background-color: rgb(231, 231, 236);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+    height: 450px;
+}
+.inp{
+    width: 80%;
+}
+.inp input{
+    width: 85%;
+    padding: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: large;
+    background-origin: none;
+    border: none;
+    background-color: red;
+    color: #fff;
+
+}
+.btn button{
+    width: 23%;
+    height: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 20px;
+    border: none;
+    background-color: red;
+    outline: none;
+}
+.btn button:hover{
+    background-color: rgb(231, 231, 236);
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    outline: none;
+}
+.btn{
+    padding: 10px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+.btn .equal{
+    background-color: rgba(37, 36, 36, 0.9);
+    color: #fff;
+}
+.btn .equal:hover{
+    background-color: red;
+    color: #fff;
+}
+.plus>button {
+    position: relative;
+    left: 2px;
+    height: 120px;
+}
+.lastBtn{
+    position: relative;
+    top: -65px;
+}
+.firstBtn{
+    position: relative;
+    top: -35px;
+}
+.heading h2{
+    font-size: 80px;
+    color:  #0f0e0ede;
+    text-decoration: underline;
+    font-family: cursive;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+}
