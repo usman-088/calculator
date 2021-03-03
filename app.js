@@ -4,10 +4,16 @@ function calc(n) {
 
     var input = document.getElementById("in");
 
-    input.value += n
-
-    if (n == "C") {
+    var b = ['+','-','*','/']
+    var lastNo =  input.value.slice(input.value.length-1)
+    if(b.indexOf(lastNo)!== -1 && b.indexOf(n) !== -1){
+        var c = input.value.slice(0,input.value.length-1)
+        input.value = c+n
+    }else if (n == "C") {
         input.value = ""
+        
+    }else{
+        input.value += n
     }
 
 
